@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Shanto's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Free CDN -->
+    <script src="https://kit.fontawesome.com/1d8ea7591e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ----------Banner Section----------- -->
+
+    <header>
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class = "logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Specialities">Specialities</a></li>
+                    <li><a href="#portfolio">Catalogue</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="open"></i>
+            </nav>
+            <div class="banner-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Shanto</span><br> from Bangladesh</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------About Section----------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/about_pic.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="intro">Hi, I am Md. Rezaul Karim Shanto from Bangladesh. Few things in my life bring me as much joy as developing websites. Every time I work on one, it’s a new challenge, and I love seeing the building blocks come together to create something amazing. So, if you want any kind of website built, I am fully capable of taking on the challenge and delivering it for you.</p>
+
+                    <div class="about-tabs">
+                        <p class="tab-topics active" content-id = 'skills'>Skills</p>
+                        <p class="tab-topics" content-id = 'experience'>Experience</p>
+                        <p class="tab-topics" content-id = 'education'>Education</p>
+                    </div>
+
+                    <div class="about-content active" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Build & Deploy Websites</li>
+                            <li><span>App Development</span><br>Build & Deplay IOS and Android Apps</li>
+                            <li><span>Cloud Computing</span><br>Deploying and Maintaining Websites Using AWS</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-content" id="experience">
+                        <ul>
+                            <li><span>Since 2025 - Present</span><br>Build & Deploy Websites</li>
+                            <li><span>Since 2025 - Present</span><br>Build & Deplay IOS and Android Apps</li>
+                            <li><span>Since 2025 - Present</span><br>Deploying and Maintaining Websites Using AWS</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-content" id="education">
+                        <ul>
+                            <li><span>2021</span><br>B.Sc in EEE from BUET</li>
+                            <li><span>2015</span><br>H.S.C from Dhaka College</li>
+                            <li><span>2013</span><br>S.S.C from Ideal School & College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Specialities Section-------------------------- -->
+
+    <div id="Specialities">
+        <div class="container">
+            <h1 class="sub-title">My Specialities</h1>
+            <div class="specialities-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Full-stack Web Development using React, Node/Express, Both SQL and Non-SQL Database</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App</h2>
+                    <p>Full-stack Native Mobile App Development using Swift for IOS and Kotlin for Android.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h2>Cloud Computing</h2>
+                    <p>deploying and managing scalable applications using AWS, Azure, and modern DevOps tools.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Portfolio Section---------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Check Out My Projects!</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="./images/web-dev.jpg" alt="">
+                    <div class="layer">
+                        <h3>Edtech Website</h3>
+                        <p>This website is currently connecting 100+ tutors form Bangladesh with over a Million Student around the World!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/app-dev.jpg" alt="">
+                    <div class="layer">
+                        <h3>Note Taking App</h3>
+                        <p>This app helps users organize all their pdfs, annotated file, slides in one place!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/cloud-computing.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hosting Website</h3>
+                        <p>This web-app enables users to host their simple website without the hassale of knowing AWS!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="explore-button">Explore More</a>
+        </div>
+    </div>
+
+    <!-- ----------------------contact-------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> rezaulkarimshanto15@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +8801957677232</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./images/BUET_15_RezaulKarim.pdf" download class="explore-button cv-button">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name = 'Name' placeholder="Your Name" required>
+                        <input type="text" name = 'email' placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="explore-button cv-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Adding Script-------------------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
